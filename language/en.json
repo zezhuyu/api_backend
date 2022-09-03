@@ -1,0 +1,10 @@
+{
+    "email": {
+        "rsender": "Sam Web Notification",
+        "rsubject": "Message received",
+        "rgreeting": "Hi ",
+        "rmessage": "Your message has been received. I will get back to you as soon as possible.",
+        "rfooter": "Best regards,\nSam"
+
+    }
+}

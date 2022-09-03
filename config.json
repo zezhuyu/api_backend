@@ -1,0 +1,13 @@
+{
+    "port": 5000,
+    "email" : {
+        "host": "",
+        "port": 587,
+        "user": "",
+        "password": "",
+        "email": "",
+        "notifyname": "",
+        "notifyemail": "",
+        "token": ""
+    }
+}

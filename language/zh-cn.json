@@ -1,0 +1,9 @@
+{
+    "email": {
+        "rsender":"Sam网页通知",
+        "rsubject": "消息已收到",
+        "rgreeting": "嗨 ",
+        "rmessage": "您的消息已收到，我会尽快与您联系。",
+        "rfooter": "Sam，\n敬上"
+    }
+}

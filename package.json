@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "a generic server for most of my website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zezhuyu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "i18n": "^0.15.0",
+    "mongoose": "^6.5.4",
+    "nodemailer": "^6.7.8",
+    "object-hash": "^3.0.0"
+  },
+  "type": "module"
+}
