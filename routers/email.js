@@ -10,7 +10,7 @@ const router = express.Router();
 
 const mailNotification = {
     from :{
-        name: 'Sam Web Notification',
+        name: 'Sam Web New Message',
         address: config.email.email
     },
     to:{

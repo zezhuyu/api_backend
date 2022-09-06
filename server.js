@@ -3,6 +3,7 @@ import cors from "cors";
 import hash from "object-hash";
 import config from "./config.json" assert {type: "json"};
 import emailApi from "./routers/email.js";
+import poemApi from "./routers/poem.js";
 
 const app = express(); 
 const port = config.port || 5000;
@@ -16,6 +17,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/email", emailApi);
+app.use("/poem", poemApi);
 
 app.listen(port, () => {
     // perform a database connection when server starts

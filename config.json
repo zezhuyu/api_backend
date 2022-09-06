@@ -1,13 +1,16 @@
 {
-    "port": 5000,
+    "port": 5001,
     "email" : {
-        "host": "",
+        "host": "smtp.mail.me.com",
         "port": 587,
-        "user": "",
-        "password": "",
-        "email": "",
-        "notifyname": "",
-        "notifyemail": "",
-        "token": ""
+        "user": "zezhuyu@icloud.com",
+        "password": "mohp-fngk-xxgy-qwjm",
+        "email": "notification@samproduce.com",
+        "notifyname": "Sam",
+        "notifyemail": "sam@samproduce.com",
+        "token": "1234567890"
+    },
+    "poem": {
+        "token": "1234567890"
     }
 }
