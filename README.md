@@ -2,3 +2,4 @@
 ### now support:
 * email api
 * mongodb api
+* poem ai (chinese)

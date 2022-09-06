@@ -16,7 +16,6 @@ router.route("/client/auth/poem").post(async(req, res) => {
         return res.status(401).send({ auth: false, message: 'No token provided.' });
     }
     const lang = req.body.language ==='zh-CN'?"cn":"en";
-
     res.send(getPoem());
     
 });
