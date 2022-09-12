@@ -2,7 +2,7 @@ import express from "express";
 import hash from 'object-hash';
 import nodemailer from "nodemailer";
 import i18n from 'i18n';
-import config from "../config.json" assert {type: "json"};
+import config from "../conf/config.json" assert {type: "json"};
 import cn from '../language/zh-cn.json' assert {type: "json"};
 import en from '../language/en.json' assert {type: "json"};
 

@@ -2,7 +2,7 @@ import { spawn } from 'child_process';
 import express from "express";
 import { get } from 'http';
 import hash from 'object-hash';
-import config from "../config.json" assert {type: "json"};
+import config from "../conf/config.json" assert {type: "json"};
 
 const router = express.Router();
 var cnpoemList = [];

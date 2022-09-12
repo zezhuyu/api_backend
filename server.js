@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import hash from "object-hash";
-import config from "./config.json" assert {type: "json"};
+import config from "./conf/config.json" assert {type: "json"};
 import emailApi from "./routers/email.js";
 import poemApi from "./routers/poem.js";
 
